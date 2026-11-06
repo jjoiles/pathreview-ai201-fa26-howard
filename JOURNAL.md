@@ -1,0 +1,29 @@
+# Unit 7 — Issue Selection
+
+**Issue Link:** https://github.com/codepath/pathreview-ai201-fa26-howard/issues/58
+
+**Issue Title:** Bias detector patterns are too narrow to match common phrasings
+
+**Issue Tier:** Tier 1
+
+## Problem Summary
+
+PathReview's bias detector currently uses patterns that are too narrow to recognize certain biased statements when they are phrased differently. This can cause the system to miss language that should be flagged, reducing the effectiveness of its bias detection. The issue focuses on improving the detection patterns in `safety/bias_detector.py` while avoiding false positives. A successful fix would recognize more variations of biased language while ensuring that neutral statements are not incorrectly flagged.
+
+## Why I Selected This Issue
+
+I selected this Tier 1 issue because it has a clear scope and connects to my interest in responsible AI. The issue identifies the affected code and provides existing tests that can help verify the changes. I believe this is a manageable issue because I can focus on improving specific detection patterns without changing the overall application architecture. It also provides an opportunity to strengthen my understanding of testing, debugging, and building more reliable AI-related systems.
+
+## Working Branch
+
+`fix/58-bias-detector-patterns`
+
+## Setup and Issue Claim Checklist
+
+- [x] Selected a Tier 1 issue
+- [x] Claimed Issue #58 on GitHub
+- [x] Added Issue #58 to the Howard cohort ledger
+- [x] Created my working branch
+- [x] Completed the project setup
+- [x] Successfully launched PathReview at localhost:5173
+- [x] Committed and pushed `JOURNAL.md` to GitHub
