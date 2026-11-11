@@ -27,3 +27,18 @@ I selected this Tier 1 issue because it has a clear scope and connects to my int
 - [x] Completed the project setup
 - [x] Successfully launched PathReview at localhost:5173
 - [x] Committed and pushed `JOURNAL.md` to GitHub
+---
+
+## Unit 8 — Reproduction & solution planning
+
+**Reproduction commit link:** https://github.com/jjoiles/pathreview-ai201-fa26-howard/commit/0c85268
+
+**Reproduction summary:**
+I reproduced the existing bias detector test results by running `.venv/bin/python -m pytest tests/unit/test_bias_detector.py -v` in my Codespace. The suite reported 23 passing tests and 9 expected failures (XFAIL), documenting known cases where the detector does not yet meet the expected behavior.
+
+**PLAN.md link:** https://github.com/jjoiles/pathreview-ai201-fa26-howard/blob/fix/58-bias-detector-patterns/PLAN.md
+
+**Walkthrough video (recommended):** Not recorded; optional and not graded.
+
+**Blockers or open questions:**
+I need to inspect the existing matching patterns and expected-failure cases to determine which rules require changes without introducing false positives.
